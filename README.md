@@ -29,7 +29,7 @@ While the goal is to provide an implementation of DRYAD that highly accessible a
 * Modified the program to perform a grid search (i.e. loop through parameters). Also added a progress bar that shows how much time has elapsed as well as the approximate time left in the simulation. The progress bar can be suppressed by setting `see_progress_bar` to `0`.
 * The progress bar requires installation of some outside packages. If you running the Anaconda/Spyder suite (which is recommended), pull up the Anaconda prompt and type in `conda install progressbar2`. If you are running Python, pull up a Python prompt window and type in either `pip install progressbar2` or `pip3 install progressbar1`, depending on which version of Python you are running.
 
-![PRogress bar at work](https://github.gatech.edu/tcurley6/DRYAD/blob/master/rand/progressbar.gif)
+![PRogress bar at work](https://github.com/tmc2737/DRYAD/blob/master/rand/progressbar.gif)
 
 ### (090618)[TC]
 * Finsihed what I believe is a full representation of the DRYAD model. This includes a main file by which parameters can be "tuned", and a second file that holds all helper functions (represented by different MATLAB files in Benjamin's original code). 
